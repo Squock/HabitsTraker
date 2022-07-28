@@ -26,6 +26,7 @@ class ExerciseTableView: UIView {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    private var viewModel: Models.FirstTabBarModel.ViewModel?
 
     private func setupViews() {
         addSubview(tableView)
@@ -39,6 +40,11 @@ class ExerciseTableView: UIView {
         tableView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
+    }
+
+    func setup(viewModel: Models.FirstTabBarModel.ViewModel) {
+        self.viewModel = viewModel
+        tableView.reloadData()
     }
 }
 

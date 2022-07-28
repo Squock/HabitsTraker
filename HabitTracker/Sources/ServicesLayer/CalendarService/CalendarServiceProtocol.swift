@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol CalendarServiceProtocol: AnyObject {
+    func getDays() -> Models.CalendarServiceModel.Model
+}

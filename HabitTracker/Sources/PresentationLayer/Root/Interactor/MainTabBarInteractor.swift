@@ -7,4 +7,10 @@
 
 import Foundation
 
-final class MainTabBarInteractor:
+final class MainTabBarInteractor: MainTabBarInteractorProtocol {
+    private let presenter: MainTabBarPresenterProtocol
+
+    init(presenter: MainTabBarPresenterProtocol) {
+        self.presenter = presenter
+    }
+}

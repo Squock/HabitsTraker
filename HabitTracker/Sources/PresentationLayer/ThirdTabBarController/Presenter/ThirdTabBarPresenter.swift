@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+final class ThirdTabBarPresenter {
+    private let viewController: ThirdTabBarViewControllerProtocol
+
+    init(viewController: ThirdTabBarViewControllerProtocol) {
+        self.viewController = viewController
+    }
+}
+
+extension ThirdTabBarPresenter: ThirdTabBarPresenterProtocol {}

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+public enum App { }
+
+public extension App {
+    enum Models { }
+}
+
+typealias Models = App.Models

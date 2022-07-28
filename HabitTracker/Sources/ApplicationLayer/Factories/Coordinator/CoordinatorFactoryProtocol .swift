@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+protocol CoordinatorFactoryProtocol: AnyObject {
+    func makeRootCoordinator() -> MainCoordinator
+    func makeFirstTabCoordinator(_ navigationController: UINavigationController) -> FirstTabBarCoordinator
+    func makeSecondTabCoordinator(_ navigationController: UINavigationController) -> SecondTabBarCoordinator
+    func makeThirdTabCoordinator(_ navigationController: UINavigationController) -> ThirdTabBarCoordinator
+}

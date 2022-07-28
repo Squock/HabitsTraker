@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol DateServiceProtocol: AnyObject {
+    func getDateTitle(date: Date, isToday: Bool) -> String
+}

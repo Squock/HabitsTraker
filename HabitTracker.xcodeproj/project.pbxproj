@@ -16,7 +16,71 @@
 		22575375288C0CDB00D2F5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22575373288C0CDB00D2F5F8 /* LaunchScreen.storyboard */; };
 		22575380288C0CDB00D2F5F8 /* HabitTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257537F288C0CDB00D2F5F8 /* HabitTrackerTests.swift */; };
 		2257538A288C0CDB00D2F5F8 /* HabitTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22575389288C0CDB00D2F5F8 /* HabitTrackerUITests.swift */; };
-		2257538C288C0CDB00D2F5F8 /* HabitTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257538B288C0CDB00D2F5F8 /* HabitTrackerUITestsLaunchTests.swift */; };
+		226994CC288C51A100E40F14 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994CB288C51A100E40F14 /* MainCoordinator.swift */; };
+		226994D0288C522400E40F14 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994CF288C522400E40F14 /* Coordinator.swift */; };
+		226994D3288C545F00E40F14 /* HabitTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2257538B288C0CDB00D2F5F8 /* HabitTrackerUITestsLaunchTests.swift */; };
+		226994DE288C580B00E40F14 /* HabitTrackerDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994DD288C580B00E40F14 /* HabitTrackerDI.swift */; };
+		226994E4288C58E500E40F14 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994E3288C58E500E40F14 /* SceneFactory.swift */; };
+		226994E6288C594200E40F14 /* SceneFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994E5288C594200E40F14 /* SceneFactoryProtocol.swift */; };
+		226994E9288C5A1800E40F14 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226994E8288C5A1800E40F14 /* MainTabBarController.swift */; };
+		22699528288C5BA500E40F14 /* UIAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699527288C5BA500E40F14 /* UIAssembly.swift */; };
+		2269952A288C5C0E00E40F14 /* CoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699529288C5C0D00E40F14 /* CoordinatorAssembly.swift */; };
+		22699569288D0BB900E40F14 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699568288D0BB900E40F14 /* CoordinatorFactory.swift */; };
+		2269956C288D0C5A00E40F14 /* CoordinatorFactoryProtocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269956B288D0C5A00E40F14 /* CoordinatorFactoryProtocol .swift */; };
+		2269956E288D11E900E40F14 /* FirstTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269956D288D11E900E40F14 /* FirstTabBarCoordinator.swift */; };
+		22699570288D11F900E40F14 /* SecondTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269956F288D11F900E40F14 /* SecondTabBarCoordinator.swift */; };
+		22699572288D120D00E40F14 /* ThirdTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699571288D120D00E40F14 /* ThirdTabBarCoordinator.swift */; };
+		22699574288D161C00E40F14 /* MainTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699573288D161C00E40F14 /* MainTabBarInteractor.swift */; };
+		22699576288D162A00E40F14 /* MainTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699575288D162A00E40F14 /* MainTabBarPresenter.swift */; };
+		2269957B288D166900E40F14 /* MainTabBarPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269957A288D166900E40F14 /* MainTabBarPresenterProtocol.swift */; };
+		2269957D288D167B00E40F14 /* MainTabBarInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269957C288D167B00E40F14 /* MainTabBarInteractorProtocol.swift */; };
+		2269957F288D168E00E40F14 /* MainTabBarControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269957E288D168E00E40F14 /* MainTabBarControllerProtocol.swift */; };
+		2269958D288D33D400E40F14 /* FirstTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269958C288D33D400E40F14 /* FirstTabBarViewController.swift */; };
+		2269958F288D33F400E40F14 /* FIrstTabBarControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269958E288D33F400E40F14 /* FIrstTabBarControllerProtocol.swift */; };
+		22699591288D341600E40F14 /* FirstTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699590288D341600E40F14 /* FirstTabBarInteractor.swift */; };
+		22699593288D344000E40F14 /* FirstTabBarInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699592288D344000E40F14 /* FirstTabBarInteractorProtocol.swift */; };
+		22699595288D346700E40F14 /* FirstTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699594288D346700E40F14 /* FirstTabBarPresenter.swift */; };
+		22699597288D348500E40F14 /* FirstTabBarPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699596288D348500E40F14 /* FirstTabBarPresenterProtocol.swift */; };
+		22699599288D353800E40F14 /* SecondTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699598288D353800E40F14 /* SecondTabBarViewController.swift */; };
+		2269959B288D357000E40F14 /* SecondTabBarViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269959A288D357000E40F14 /* SecondTabBarViewControllerProtocol.swift */; };
+		2269959D288D35A800E40F14 /* SecondTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269959C288D35A800E40F14 /* SecondTabBarInteractor.swift */; };
+		2269959F288D35B800E40F14 /* SecondTabBarInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269959E288D35B800E40F14 /* SecondTabBarInteractorProtocol.swift */; };
+		226995A1288D35DF00E40F14 /* SecondTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995A0288D35DF00E40F14 /* SecondTabBarPresenter.swift */; };
+		226995A3288D35FF00E40F14 /* SecondTabBarPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995A2288D35FF00E40F14 /* SecondTabBarPresenterProtocol.swift */; };
+		226995A5288D36BF00E40F14 /* ThirdTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995A4288D36BF00E40F14 /* ThirdTabBarViewController.swift */; };
+		226995A7288D36F000E40F14 /* ThirdTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995A6288D36F000E40F14 /* ThirdTabBarInteractor.swift */; };
+		226995A9288D371600E40F14 /* ThirdTabBarInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995A8288D371600E40F14 /* ThirdTabBarInteractorProtocol.swift */; };
+		226995AB288D373B00E40F14 /* ThirdTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995AA288D373B00E40F14 /* ThirdTabBarPresenter.swift */; };
+		226995AD288D374A00E40F14 /* ThirdTabBarPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995AC288D374A00E40F14 /* ThirdTabBarPresenterProtocol.swift */; };
+		226995AF288D37BC00E40F14 /* ThirdTabBarViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995AE288D37BC00E40F14 /* ThirdTabBarViewControllerProtocol.swift */; };
+		226995EF288D883B00E40F14 /* HasContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995EE288D883B00E40F14 /* HasContentView.swift */; };
+		226995F2288D88AB00E40F14 /* FirstTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995F1288D88AB00E40F14 /* FirstTabBarView.swift */; };
+		226995F4288E4AA100E40F14 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995F3288E4AA100E40F14 /* CalendarView.swift */; };
+		226995F7288F634900E40F14 /* CalendarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995F6288F634900E40F14 /* CalendarService.swift */; };
+		226995F9288F6BFB00E40F14 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995F8288F6BFB00E40F14 /* Models.swift */; };
+		226995FB288F6C7600E40F14 /* CalendarServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995FA288F6C7600E40F14 /* CalendarServiceModel.swift */; };
+		226995FD288F6FDC00E40F14 /* CalendarServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226995FC288F6FDC00E40F14 /* CalendarServiceProtocol.swift */; };
+		22699602288F713300E40F14 /* FirstTabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699601288F713300E40F14 /* FirstTabBarModel.swift */; };
+		22699607288F74C500E40F14 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699606288F74C500E40F14 /* CalendarCollectionViewCell.swift */; };
+		2269960A288FFEEE00E40F14 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699609288FFEEE00E40F14 /* Calendar.swift */; };
+		2269960C28900AAE00E40F14 /* WeekCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269960B28900AAE00E40F14 /* WeekCollectionView.swift */; };
+		2269960E28900B8D00E40F14 /* WeekCollectionVIewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269960D28900B8D00E40F14 /* WeekCollectionVIewCell.swift */; };
+		2269961228906AA900E40F14 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269961128906AA900E40F14 /* Date.swift */; };
+		226996142890718700E40F14 /* FirstTabBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226996132890718700E40F14 /* FirstTabBarAction.swift */; };
+		2269961728918B4500E40F14 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269961628918B4500E40F14 /* DateService.swift */; };
+		2269961928918B6000E40F14 /* DateServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269961828918B6000E40F14 /* DateServiceProtocol.swift */; };
+		2269961B2891944400E40F14 /* ExerciseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269961A2891944400E40F14 /* ExerciseTableView.swift */; };
+		2269961D2891955900E40F14 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269961C2891955900E40F14 /* ExerciseTableViewCell.swift */; };
+		226996212892664600E40F14 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226996202892664600E40F14 /* HabitsViewController.swift */; };
+		226996262892668500E40F14 /* HabitsViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226996252892668500E40F14 /* HabitsViewControllerProtocol.swift */; };
+		226996282892669100E40F14 /* HabitsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226996272892669100E40F14 /* HabitsInteractor.swift */; };
+		2269962A289266A000E40F14 /* HabitsInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22699629289266A000E40F14 /* HabitsInteractorProtocol.swift */; };
+		2269962C289266AA00E40F14 /* HabitsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269962B289266AA00E40F14 /* HabitsPresenter.swift */; };
+		2269962E289266C000E40F14 /* HabitsPresenterProtocol .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269962D289266C000E40F14 /* HabitsPresenterProtocol .swift */; };
+		2269963028926B6300E40F14 /* FirstTabBarViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269962F28926B6300E40F14 /* FirstTabBarViewControllerTests.swift */; };
+		4E262A677114809AACC75F85 /* Pods_HabitTracker_HabitTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5BDA268DBA8D8DD23D1B34 /* Pods_HabitTracker_HabitTrackerUITests.framework */; };
+		6C1F604CE7CF04B6BABB993A /* Pods_HabitTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098CFBC89D517C2618ACBB8A /* Pods_HabitTrackerTests.framework */; };
+		94AE5A415E2B5F7AFA9138DF /* Pods_HabitTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6550371EC010D4E166F10C82 /* Pods_HabitTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +101,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0466A5AB34C938A9AB677A7D /* Pods-HabitTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTracker.release.xcconfig"; path = "Target Support Files/Pods-HabitTracker/Pods-HabitTracker.release.xcconfig"; sourceTree = "<group>"; };
+		098CFBC89D517C2618ACBB8A /* Pods_HabitTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C4EDFF8B39BE15FC4CF98B /* Pods-HabitTracker-HabitTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTracker-HabitTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-HabitTracker-HabitTrackerUITests/Pods-HabitTracker-HabitTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		22575362288C0CD900D2F5F8 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22575365288C0CD900D2F5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22575367288C0CD900D2F5F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +118,73 @@
 		22575385288C0CDB00D2F5F8 /* HabitTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22575389288C0CDB00D2F5F8 /* HabitTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITests.swift; sourceTree = "<group>"; };
 		2257538B288C0CDB00D2F5F8 /* HabitTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		226994CB288C51A100E40F14 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		226994CF288C522400E40F14 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		226994DD288C580B00E40F14 /* HabitTrackerDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTrackerDI.swift; sourceTree = "<group>"; };
+		226994E3288C58E500E40F14 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		226994E5288C594200E40F14 /* SceneFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactoryProtocol.swift; sourceTree = "<group>"; };
+		226994E8288C5A1800E40F14 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		22699527288C5BA500E40F14 /* UIAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAssembly.swift; sourceTree = "<group>"; };
+		22699529288C5C0D00E40F14 /* CoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorAssembly.swift; sourceTree = "<group>"; };
+		22699568288D0BB900E40F14 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		2269956B288D0C5A00E40F14 /* CoordinatorFactoryProtocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoordinatorFactoryProtocol .swift"; sourceTree = "<group>"; };
+		2269956D288D11E900E40F14 /* FirstTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarCoordinator.swift; sourceTree = "<group>"; };
+		2269956F288D11F900E40F14 /* SecondTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarCoordinator.swift; sourceTree = "<group>"; };
+		22699571288D120D00E40F14 /* ThirdTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarCoordinator.swift; sourceTree = "<group>"; };
+		22699573288D161C00E40F14 /* MainTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractor.swift; sourceTree = "<group>"; };
+		22699575288D162A00E40F14 /* MainTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenter.swift; sourceTree = "<group>"; };
+		2269957A288D166900E40F14 /* MainTabBarPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarPresenterProtocol.swift; sourceTree = "<group>"; };
+		2269957C288D167B00E40F14 /* MainTabBarInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarInteractorProtocol.swift; sourceTree = "<group>"; };
+		2269957E288D168E00E40F14 /* MainTabBarControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControllerProtocol.swift; sourceTree = "<group>"; };
+		2269958C288D33D400E40F14 /* FirstTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewController.swift; sourceTree = "<group>"; };
+		2269958E288D33F400E40F14 /* FIrstTabBarControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIrstTabBarControllerProtocol.swift; sourceTree = "<group>"; };
+		22699590288D341600E40F14 /* FirstTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarInteractor.swift; sourceTree = "<group>"; };
+		22699592288D344000E40F14 /* FirstTabBarInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarInteractorProtocol.swift; sourceTree = "<group>"; };
+		22699594288D346700E40F14 /* FirstTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarPresenter.swift; sourceTree = "<group>"; };
+		22699596288D348500E40F14 /* FirstTabBarPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarPresenterProtocol.swift; sourceTree = "<group>"; };
+		22699598288D353800E40F14 /* SecondTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewController.swift; sourceTree = "<group>"; };
+		2269959A288D357000E40F14 /* SecondTabBarViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2269959C288D35A800E40F14 /* SecondTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarInteractor.swift; sourceTree = "<group>"; };
+		2269959E288D35B800E40F14 /* SecondTabBarInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarInteractorProtocol.swift; sourceTree = "<group>"; };
+		226995A0288D35DF00E40F14 /* SecondTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarPresenter.swift; sourceTree = "<group>"; };
+		226995A2288D35FF00E40F14 /* SecondTabBarPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarPresenterProtocol.swift; sourceTree = "<group>"; };
+		226995A4288D36BF00E40F14 /* ThirdTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarViewController.swift; sourceTree = "<group>"; };
+		226995A6288D36F000E40F14 /* ThirdTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarInteractor.swift; sourceTree = "<group>"; };
+		226995A8288D371600E40F14 /* ThirdTabBarInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarInteractorProtocol.swift; sourceTree = "<group>"; };
+		226995AA288D373B00E40F14 /* ThirdTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarPresenter.swift; sourceTree = "<group>"; };
+		226995AC288D374A00E40F14 /* ThirdTabBarPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarPresenterProtocol.swift; sourceTree = "<group>"; };
+		226995AE288D37BC00E40F14 /* ThirdTabBarViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarViewControllerProtocol.swift; sourceTree = "<group>"; };
+		226995EE288D883B00E40F14 /* HasContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasContentView.swift; sourceTree = "<group>"; };
+		226995F1288D88AB00E40F14 /* FirstTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarView.swift; sourceTree = "<group>"; };
+		226995F3288E4AA100E40F14 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		226995F6288F634900E40F14 /* CalendarService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarService.swift; sourceTree = "<group>"; };
+		226995F8288F6BFB00E40F14 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		226995FA288F6C7600E40F14 /* CalendarServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarServiceModel.swift; sourceTree = "<group>"; };
+		226995FC288F6FDC00E40F14 /* CalendarServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarServiceProtocol.swift; sourceTree = "<group>"; };
+		22699601288F713300E40F14 /* FirstTabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarModel.swift; sourceTree = "<group>"; };
+		22699606288F74C500E40F14 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		22699609288FFEEE00E40F14 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		2269960B28900AAE00E40F14 /* WeekCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCollectionView.swift; sourceTree = "<group>"; };
+		2269960D28900B8D00E40F14 /* WeekCollectionVIewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCollectionVIewCell.swift; sourceTree = "<group>"; };
+		2269961128906AA900E40F14 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		226996132890718700E40F14 /* FirstTabBarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarAction.swift; sourceTree = "<group>"; };
+		2269961628918B4500E40F14 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		2269961828918B6000E40F14 /* DateServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateServiceProtocol.swift; sourceTree = "<group>"; };
+		2269961A2891944400E40F14 /* ExerciseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableView.swift; sourceTree = "<group>"; };
+		2269961C2891955900E40F14 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
+		226996202892664600E40F14 /* HabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewController.swift; sourceTree = "<group>"; };
+		226996252892668500E40F14 /* HabitsViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewControllerProtocol.swift; sourceTree = "<group>"; };
+		226996272892669100E40F14 /* HabitsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsInteractor.swift; sourceTree = "<group>"; };
+		22699629289266A000E40F14 /* HabitsInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsInteractorProtocol.swift; sourceTree = "<group>"; };
+		2269962B289266AA00E40F14 /* HabitsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsPresenter.swift; sourceTree = "<group>"; };
+		2269962D289266C000E40F14 /* HabitsPresenterProtocol .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitsPresenterProtocol .swift"; sourceTree = "<group>"; };
+		2269962F28926B6300E40F14 /* FirstTabBarViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarViewControllerTests.swift; sourceTree = "<group>"; };
+		2A8944A7BC0957363E80D9C4 /* Pods-HabitTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-HabitTrackerTests/Pods-HabitTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E5BDA268DBA8D8DD23D1B34 /* Pods_HabitTracker_HabitTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitTracker_HabitTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6550371EC010D4E166F10C82 /* Pods_HabitTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EE52E969893610FF8E81B9 /* Pods-HabitTracker-HabitTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTracker-HabitTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-HabitTracker-HabitTrackerUITests/Pods-HabitTracker-HabitTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6C65744A80F011C479B0BFA /* Pods-HabitTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTracker.debug.xcconfig"; path = "Target Support Files/Pods-HabitTracker/Pods-HabitTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		DC28563CF00220819ADDF313 /* Pods-HabitTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-HabitTrackerTests/Pods-HabitTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AE5A415E2B5F7AFA9138DF /* Pods_HabitTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +200,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1F604CE7CF04B6BABB993A /* Pods_HabitTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E262A677114809AACC75F85 /* Pods_HabitTracker_HabitTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +222,8 @@
 				2257537E288C0CDB00D2F5F8 /* HabitTrackerTests */,
 				22575388288C0CDB00D2F5F8 /* HabitTrackerUITests */,
 				22575363288C0CD900D2F5F8 /* Products */,
+				A918DA0536922A817396A536 /* Pods */,
+				EE61FFED1401D3658D656A51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +240,8 @@
 		22575364288C0CD900D2F5F8 /* HabitTracker */ = {
 			isa = PBXGroup;
 			children = (
+				226994C5288C50DA00E40F14 /* Sources */,
+				226994C4288C50CF00E40F14 /* Resources */,
 				22575365288C0CD900D2F5F8 /* AppDelegate.swift */,
 				22575367288C0CD900D2F5F8 /* SceneDelegate.swift */,
 				22575369288C0CD900D2F5F8 /* ViewController.swift */,
@@ -117,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				2257537F288C0CDB00D2F5F8 /* HabitTrackerTests.swift */,
+				2269962F28926B6300E40F14 /* FirstTabBarViewControllerTests.swift */,
 			);
 			path = HabitTrackerTests;
 			sourceTree = "<group>";
@@ -130,6 +272,431 @@
 			path = HabitTrackerUITests;
 			sourceTree = "<group>";
 		};
+		226994C4288C50CF00E40F14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		226994C5288C50DA00E40F14 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				226994DC288C57F800E40F14 /* DI */,
+				226994D1288C532C00E40F14 /* Assembly */,
+				226994CA288C512700E40F14 /* ServicesLayer */,
+				226994C9288C511C00E40F14 /* PresentationLayer */,
+				226994C8288C510A00E40F14 /* DomainLayer */,
+				226994C7288C510300E40F14 /* CoreLayer */,
+				226994C6288C50EA00E40F14 /* ApplicationLayer */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		226994C6288C50EA00E40F14 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				226994DF288C587000E40F14 /* Factories */,
+				226994CE288C520A00E40F14 /* Protocols */,
+				226994CD288C51C200E40F14 /* Coordinators  */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		226994C7288C510300E40F14 /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22699608288FFED600E40F14 /* Extensions */,
+				226995ED288D882800E40F14 /* HasContentView */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		226994C8288C510A00E40F14 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				226995FF288F710500E40F14 /* CalendarService */,
+				226995FE288F70F800E40F14 /* FirstTabBarController */,
+				226995F8288F6BFB00E40F14 /* Models.swift */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		226994C9288C511C00E40F14 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22699582288D334200E40F14 /* ThirdTabBarController */,
+				22699581288D333800E40F14 /* SecondTabBarController */,
+				22699580288D332B00E40F14 /* FirstTabBarController */,
+				226994E7288C5A0700E40F14 /* Root */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		226994CA288C512700E40F14 /* ServicesLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2269961528918B3500E40F14 /* DateService */,
+				226995F5288F633200E40F14 /* CalendarService */,
+			);
+			path = ServicesLayer;
+			sourceTree = "<group>";
+		};
+		226994CD288C51C200E40F14 /* Coordinators  */ = {
+			isa = PBXGroup;
+			children = (
+				226994CB288C51A100E40F14 /* MainCoordinator.swift */,
+				2269956D288D11E900E40F14 /* FirstTabBarCoordinator.swift */,
+				2269956F288D11F900E40F14 /* SecondTabBarCoordinator.swift */,
+				22699571288D120D00E40F14 /* ThirdTabBarCoordinator.swift */,
+			);
+			path = "Coordinators ";
+			sourceTree = "<group>";
+		};
+		226994CE288C520A00E40F14 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				226994CF288C522400E40F14 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		226994D1288C532C00E40F14 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				22699527288C5BA500E40F14 /* UIAssembly.swift */,
+				22699529288C5C0D00E40F14 /* CoordinatorAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		226994DC288C57F800E40F14 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				226994DD288C580B00E40F14 /* HabitTrackerDI.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		226994DF288C587000E40F14 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				2269956A288D0C0800E40F14 /* Coordinator */,
+				226994E2288C588700E40F14 /* Scenes */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		226994E2288C588700E40F14 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				226994E3288C58E500E40F14 /* SceneFactory.swift */,
+				226994E5288C594200E40F14 /* SceneFactoryProtocol.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		226994E7288C5A0700E40F14 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				22699579288D165200E40F14 /* Presenter */,
+				22699578288D164C00E40F14 /* Interactor */,
+				22699577288D164300E40F14 /* ViewController */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		2269956A288D0C0800E40F14 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				22699568288D0BB900E40F14 /* CoordinatorFactory.swift */,
+				2269956B288D0C5A00E40F14 /* CoordinatorFactoryProtocol .swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		22699577288D164300E40F14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				226994E8288C5A1800E40F14 /* MainTabBarController.swift */,
+				2269957E288D168E00E40F14 /* MainTabBarControllerProtocol.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		22699578288D164C00E40F14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				22699573288D161C00E40F14 /* MainTabBarInteractor.swift */,
+				2269957C288D167B00E40F14 /* MainTabBarInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		22699579288D165200E40F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				22699575288D162A00E40F14 /* MainTabBarPresenter.swift */,
+				2269957A288D166900E40F14 /* MainTabBarPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		22699580288D332B00E40F14 /* FirstTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2269961F2892662800E40F14 /* Habits */,
+				2269961E2892661000E40F14 /* Main */,
+			);
+			path = FirstTabBarController;
+			sourceTree = "<group>";
+		};
+		22699581288D333800E40F14 /* SecondTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				22699588288D339800E40F14 /* ViewController */,
+				22699587288D339100E40F14 /* Interactor */,
+				22699586288D338A00E40F14 /* Presenter */,
+			);
+			path = SecondTabBarController;
+			sourceTree = "<group>";
+		};
+		22699582288D334200E40F14 /* ThirdTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2269958B288D33B600E40F14 /* ViewController */,
+				2269958A288D33B000E40F14 /* Presenter */,
+				22699589288D33A200E40F14 /* Interactor */,
+			);
+			path = ThirdTabBarController;
+			sourceTree = "<group>";
+		};
+		22699583288D336E00E40F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				22699594288D346700E40F14 /* FirstTabBarPresenter.swift */,
+				22699596288D348500E40F14 /* FirstTabBarPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		22699584288D337600E40F14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				22699590288D341600E40F14 /* FirstTabBarInteractor.swift */,
+				22699592288D344000E40F14 /* FirstTabBarInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		22699585288D337D00E40F14 /* ViewController  */ = {
+			isa = PBXGroup;
+			children = (
+				226995F0288D889500E40F14 /* View */,
+				2269958C288D33D400E40F14 /* FirstTabBarViewController.swift */,
+				2269958E288D33F400E40F14 /* FIrstTabBarControllerProtocol.swift */,
+				226996132890718700E40F14 /* FirstTabBarAction.swift */,
+			);
+			path = "ViewController ";
+			sourceTree = "<group>";
+		};
+		22699586288D338A00E40F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				226995A0288D35DF00E40F14 /* SecondTabBarPresenter.swift */,
+				226995A2288D35FF00E40F14 /* SecondTabBarPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		22699587288D339100E40F14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2269959C288D35A800E40F14 /* SecondTabBarInteractor.swift */,
+				2269959E288D35B800E40F14 /* SecondTabBarInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		22699588288D339800E40F14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				22699598288D353800E40F14 /* SecondTabBarViewController.swift */,
+				2269959A288D357000E40F14 /* SecondTabBarViewControllerProtocol.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		22699589288D33A200E40F14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				226995A6288D36F000E40F14 /* ThirdTabBarInteractor.swift */,
+				226995A8288D371600E40F14 /* ThirdTabBarInteractorProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2269958A288D33B000E40F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				226995AA288D373B00E40F14 /* ThirdTabBarPresenter.swift */,
+				226995AC288D374A00E40F14 /* ThirdTabBarPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2269958B288D33B600E40F14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				226995A4288D36BF00E40F14 /* ThirdTabBarViewController.swift */,
+				226995AE288D37BC00E40F14 /* ThirdTabBarViewControllerProtocol.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		226995ED288D882800E40F14 /* HasContentView */ = {
+			isa = PBXGroup;
+			children = (
+				226995EE288D883B00E40F14 /* HasContentView.swift */,
+			);
+			path = HasContentView;
+			sourceTree = "<group>";
+		};
+		226995F0288D889500E40F14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22699603288F748C00E40F14 /* Cell */,
+				226995F1288D88AB00E40F14 /* FirstTabBarView.swift */,
+				226995F3288E4AA100E40F14 /* CalendarView.swift */,
+				2269960B28900AAE00E40F14 /* WeekCollectionView.swift */,
+				2269961A2891944400E40F14 /* ExerciseTableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		226995F5288F633200E40F14 /* CalendarService */ = {
+			isa = PBXGroup;
+			children = (
+				226995F6288F634900E40F14 /* CalendarService.swift */,
+				226995FC288F6FDC00E40F14 /* CalendarServiceProtocol.swift */,
+			);
+			path = CalendarService;
+			sourceTree = "<group>";
+		};
+		226995FE288F70F800E40F14 /* FirstTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				22699601288F713300E40F14 /* FirstTabBarModel.swift */,
+			);
+			path = FirstTabBarController;
+			sourceTree = "<group>";
+		};
+		226995FF288F710500E40F14 /* CalendarService */ = {
+			isa = PBXGroup;
+			children = (
+				226995FA288F6C7600E40F14 /* CalendarServiceModel.swift */,
+			);
+			path = CalendarService;
+			sourceTree = "<group>";
+		};
+		22699603288F748C00E40F14 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22699606288F74C500E40F14 /* CalendarCollectionViewCell.swift */,
+				2269960D28900B8D00E40F14 /* WeekCollectionVIewCell.swift */,
+				2269961C2891955900E40F14 /* ExerciseTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		22699608288FFED600E40F14 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				22699609288FFEEE00E40F14 /* Calendar.swift */,
+				2269961128906AA900E40F14 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2269961528918B3500E40F14 /* DateService */ = {
+			isa = PBXGroup;
+			children = (
+				2269961628918B4500E40F14 /* DateService.swift */,
+				2269961828918B6000E40F14 /* DateServiceProtocol.swift */,
+			);
+			path = DateService;
+			sourceTree = "<group>";
+		};
+		2269961E2892661000E40F14 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22699585288D337D00E40F14 /* ViewController  */,
+				22699584288D337600E40F14 /* Interactor */,
+				22699583288D336E00E40F14 /* Presenter */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2269961F2892662800E40F14 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				226996242892666400E40F14 /* Presenter */,
+				226996232892665B00E40F14 /* Interactor  */,
+				226996222892665400E40F14 /* ViewController */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		226996222892665400E40F14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				226996202892664600E40F14 /* HabitsViewController.swift */,
+				226996252892668500E40F14 /* HabitsViewControllerProtocol.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		226996232892665B00E40F14 /* Interactor  */ = {
+			isa = PBXGroup;
+			children = (
+				226996272892669100E40F14 /* HabitsInteractor.swift */,
+				22699629289266A000E40F14 /* HabitsInteractorProtocol.swift */,
+			);
+			path = "Interactor ";
+			sourceTree = "<group>";
+		};
+		226996242892666400E40F14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2269962B289266AA00E40F14 /* HabitsPresenter.swift */,
+				2269962D289266C000E40F14 /* HabitsPresenterProtocol .swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A918DA0536922A817396A536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6C65744A80F011C479B0BFA /* Pods-HabitTracker.debug.xcconfig */,
+				0466A5AB34C938A9AB677A7D /* Pods-HabitTracker.release.xcconfig */,
+				10C4EDFF8B39BE15FC4CF98B /* Pods-HabitTracker-HabitTrackerUITests.debug.xcconfig */,
+				66EE52E969893610FF8E81B9 /* Pods-HabitTracker-HabitTrackerUITests.release.xcconfig */,
+				2A8944A7BC0957363E80D9C4 /* Pods-HabitTrackerTests.debug.xcconfig */,
+				DC28563CF00220819ADDF313 /* Pods-HabitTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE61FFED1401D3658D656A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6550371EC010D4E166F10C82 /* Pods_HabitTracker.framework */,
+				5E5BDA268DBA8D8DD23D1B34 /* Pods_HabitTracker_HabitTrackerUITests.framework */,
+				098CFBC89D517C2618ACBB8A /* Pods_HabitTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +704,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2257538F288C0CDB00D2F5F8 /* Build configuration list for PBXNativeTarget "HabitTracker" */;
 			buildPhases = (
+				C5ABD3CBD21BD2FE9940193C /* [CP] Check Pods Manifest.lock */,
 				2257535E288C0CD900D2F5F8 /* Sources */,
 				2257535F288C0CD900D2F5F8 /* Frameworks */,
 				22575360288C0CD900D2F5F8 /* Resources */,
+				319602E0C5A62D7237237F78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +723,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22575392288C0CDB00D2F5F8 /* Build configuration list for PBXNativeTarget "HabitTrackerTests" */;
 			buildPhases = (
+				59755735D6CE33F9F14EC40F /* [CP] Check Pods Manifest.lock */,
 				22575377288C0CDB00D2F5F8 /* Sources */,
 				22575378288C0CDB00D2F5F8 /* Frameworks */,
 				22575379288C0CDB00D2F5F8 /* Resources */,
@@ -172,9 +742,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22575395288C0CDB00D2F5F8 /* Build configuration list for PBXNativeTarget "HabitTrackerUITests" */;
 			buildPhases = (
+				A9C69E9EFD55AFA71AC3559F /* [CP] Check Pods Manifest.lock */,
 				22575381288C0CDB00D2F5F8 /* Sources */,
 				22575382288C0CDB00D2F5F8 /* Frameworks */,
 				22575383288C0CDB00D2F5F8 /* Resources */,
+				2978629E8FE8A0D790E294B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +828,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2978629E8FE8A0D790E294B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitTracker-HabitTrackerUITests/Pods-HabitTracker-HabitTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitTracker-HabitTrackerUITests/Pods-HabitTracker-HabitTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitTracker-HabitTrackerUITests/Pods-HabitTracker-HabitTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		319602E0C5A62D7237237F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitTracker/Pods-HabitTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitTracker/Pods-HabitTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitTracker/Pods-HabitTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59755735D6CE33F9F14EC40F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C69E9EFD55AFA71AC3559F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitTracker-HabitTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5ABD3CBD21BD2FE9940193C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2257535E288C0CD900D2F5F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226996282892669100E40F14 /* HabitsInteractor.swift in Sources */,
+				226995AD288D374A00E40F14 /* ThirdTabBarPresenterProtocol.swift in Sources */,
+				22699607288F74C500E40F14 /* CalendarCollectionViewCell.swift in Sources */,
+				2269952A288C5C0E00E40F14 /* CoordinatorAssembly.swift in Sources */,
+				22699595288D346700E40F14 /* FirstTabBarPresenter.swift in Sources */,
+				2269961728918B4500E40F14 /* DateService.swift in Sources */,
+				226995F7288F634900E40F14 /* CalendarService.swift in Sources */,
 				2257536A288C0CD900D2F5F8 /* ViewController.swift in Sources */,
 				22575370288C0CD900D2F5F8 /* HabitTracker.xcdatamodeld in Sources */,
+				226995F2288D88AB00E40F14 /* FirstTabBarView.swift in Sources */,
+				226995FB288F6C7600E40F14 /* CalendarServiceModel.swift in Sources */,
+				2269960C28900AAE00E40F14 /* WeekCollectionView.swift in Sources */,
+				2269960E28900B8D00E40F14 /* WeekCollectionVIewCell.swift in Sources */,
+				22699591288D341600E40F14 /* FirstTabBarInteractor.swift in Sources */,
+				22699570288D11F900E40F14 /* SecondTabBarCoordinator.swift in Sources */,
+				226995AB288D373B00E40F14 /* ThirdTabBarPresenter.swift in Sources */,
+				226995A1288D35DF00E40F14 /* SecondTabBarPresenter.swift in Sources */,
+				22699528288C5BA500E40F14 /* UIAssembly.swift in Sources */,
+				2269957B288D166900E40F14 /* MainTabBarPresenterProtocol.swift in Sources */,
+				2269959B288D357000E40F14 /* SecondTabBarViewControllerProtocol.swift in Sources */,
+				226994E9288C5A1800E40F14 /* MainTabBarController.swift in Sources */,
+				2269961B2891944400E40F14 /* ExerciseTableView.swift in Sources */,
+				2269961D2891955900E40F14 /* ExerciseTableViewCell.swift in Sources */,
+				2269958D288D33D400E40F14 /* FirstTabBarViewController.swift in Sources */,
+				2269961228906AA900E40F14 /* Date.swift in Sources */,
+				2269958F288D33F400E40F14 /* FIrstTabBarControllerProtocol.swift in Sources */,
+				22699597288D348500E40F14 /* FirstTabBarPresenterProtocol.swift in Sources */,
+				2269956E288D11E900E40F14 /* FirstTabBarCoordinator.swift in Sources */,
+				226994D0288C522400E40F14 /* Coordinator.swift in Sources */,
+				226995A7288D36F000E40F14 /* ThirdTabBarInteractor.swift in Sources */,
+				226994E4288C58E500E40F14 /* SceneFactory.swift in Sources */,
+				226995FD288F6FDC00E40F14 /* CalendarServiceProtocol.swift in Sources */,
+				226994E6288C594200E40F14 /* SceneFactoryProtocol.swift in Sources */,
+				2269957D288D167B00E40F14 /* MainTabBarInteractorProtocol.swift in Sources */,
+				226995F9288F6BFB00E40F14 /* Models.swift in Sources */,
+				226994DE288C580B00E40F14 /* HabitTrackerDI.swift in Sources */,
+				2269960A288FFEEE00E40F14 /* Calendar.swift in Sources */,
+				22699572288D120D00E40F14 /* ThirdTabBarCoordinator.swift in Sources */,
+				2269959F288D35B800E40F14 /* SecondTabBarInteractorProtocol.swift in Sources */,
 				22575366288C0CD900D2F5F8 /* AppDelegate.swift in Sources */,
+				22699599288D353800E40F14 /* SecondTabBarViewController.swift in Sources */,
+				226996212892664600E40F14 /* HabitsViewController.swift in Sources */,
+				2269956C288D0C5A00E40F14 /* CoordinatorFactoryProtocol .swift in Sources */,
+				22699593288D344000E40F14 /* FirstTabBarInteractorProtocol.swift in Sources */,
+				2269957F288D168E00E40F14 /* MainTabBarControllerProtocol.swift in Sources */,
+				226995EF288D883B00E40F14 /* HasContentView.swift in Sources */,
+				2269959D288D35A800E40F14 /* SecondTabBarInteractor.swift in Sources */,
+				226994CC288C51A100E40F14 /* MainCoordinator.swift in Sources */,
+				22699602288F713300E40F14 /* FirstTabBarModel.swift in Sources */,
+				2269961928918B6000E40F14 /* DateServiceProtocol.swift in Sources */,
+				226996262892668500E40F14 /* HabitsViewControllerProtocol.swift in Sources */,
+				22699576288D162A00E40F14 /* MainTabBarPresenter.swift in Sources */,
+				2269962C289266AA00E40F14 /* HabitsPresenter.swift in Sources */,
 				22575368288C0CD900D2F5F8 /* SceneDelegate.swift in Sources */,
+				226996142890718700E40F14 /* FirstTabBarAction.swift in Sources */,
+				226995AF288D37BC00E40F14 /* ThirdTabBarViewControllerProtocol.swift in Sources */,
+				2269962A289266A000E40F14 /* HabitsInteractorProtocol.swift in Sources */,
+				226995A9288D371600E40F14 /* ThirdTabBarInteractorProtocol.swift in Sources */,
+				22699569288D0BB900E40F14 /* CoordinatorFactory.swift in Sources */,
+				226995A3288D35FF00E40F14 /* SecondTabBarPresenterProtocol.swift in Sources */,
+				226995A5288D36BF00E40F14 /* ThirdTabBarViewController.swift in Sources */,
+				226995F4288E4AA100E40F14 /* CalendarView.swift in Sources */,
+				2269962E289266C000E40F14 /* HabitsPresenterProtocol .swift in Sources */,
+				22699574288D161C00E40F14 /* MainTabBarInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +1008,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22575380288C0CDB00D2F5F8 /* HabitTrackerTests.swift in Sources */,
+				2269963028926B6300E40F14 /* FirstTabBarViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +1016,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2257538C288C0CDB00D2F5F8 /* HabitTrackerUITestsLaunchTests.swift in Sources */,
+				226994D3288C545F00E40F14 /* HabitTrackerUITestsLaunchTests.swift in Sources */,
 				2257538A288C0CDB00D2F5F8 /* HabitTrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +1172,7 @@
 		};
 		22575390288C0CDB00D2F5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C65744A80F011C479B0BFA /* Pods-HabitTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +1200,7 @@
 		};
 		22575391288C0CDB00D2F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0466A5AB34C938A9AB677A7D /* Pods-HabitTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +1228,7 @@
 		};
 		22575393288C0CDB00D2F5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8944A7BC0957363E80D9C4 /* Pods-HabitTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +1248,7 @@
 		};
 		22575394288C0CDB00D2F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC28563CF00220819ADDF313 /* Pods-HabitTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +1268,7 @@
 		};
 		22575396288C0CDB00D2F5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C4EDFF8B39BE15FC4CF98B /* Pods-HabitTracker-HabitTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +1286,7 @@
 		};
 		22575397288C0CDB00D2F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EE52E969893610FF8E81B9 /* Pods-HabitTracker-HabitTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

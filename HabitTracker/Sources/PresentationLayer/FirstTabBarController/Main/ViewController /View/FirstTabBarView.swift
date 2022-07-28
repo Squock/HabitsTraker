@@ -49,6 +49,7 @@ final class FirstTabBarView: UIView {
     func setup(viewModel: Models.FirstTabBarModel.ViewModel) {
         calendarView.setup(viewModel: viewModel)
         calendarView.actionDelegate = actionDelegate
+        tableView.setup(viewModel: viewModel)
     }
 
     func viewDidAppear() {

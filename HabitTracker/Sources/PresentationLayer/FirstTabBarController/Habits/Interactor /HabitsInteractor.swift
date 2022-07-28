@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+final class HabitsInteractor {
+    private let presenter: HabitsPresenterProtocol
+
+    init(presenter: HabitsPresenterProtocol) {
+        self.presenter = presenter
+    }
+}
+
+extension HabitsInteractor: HabitsInteractorProtocol {}

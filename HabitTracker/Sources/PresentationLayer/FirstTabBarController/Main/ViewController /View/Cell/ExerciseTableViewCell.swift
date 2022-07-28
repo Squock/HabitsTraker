@@ -28,6 +28,7 @@ class ExerciseTableViewCell: UITableViewCell {
     private lazy var text: UILabel = {
         let label = UILabel()
         label.text = "несколько дней подряд"
+        label.textColor = .systemGray
         label.font = UIFont.systemFont(ofSize: Constants.textFontSize)
         return label
     }()
@@ -56,6 +57,7 @@ class ExerciseTableViewCell: UITableViewCell {
         static let titleFontSize: CGFloat = 20
         static let textFontSize: CGFloat = 12
         static let defaultInset: CGFloat = 8
+        static let textTop: CGFloat = 6
         static let buttonSize: CGFloat = 24
         static let buttonInset: CGFloat = 16
         static let titleTop: CGFloat = 12
@@ -90,7 +92,7 @@ class ExerciseTableViewCell: UITableViewCell {
             $0.top.equalToSuperview().offset(Constants.titleTop)
         }
         text.snp.makeConstraints {
-            $0.top.equalTo(title.snp.bottom).offset(Constants.defaultInset)
+            $0.top.equalTo(title.snp.bottom).offset(Constants.textTop)
             $0.leading.trailing.equalTo(title)
             $0.bottom.equalToSuperview().inset(Constants.textBottom)
         }

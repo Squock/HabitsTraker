@@ -6,7 +6,13 @@
 //
 
 import Foundation
+import UIKit
 
 protocol SceneFactoryProtocol: AnyObject {
     func makeRootTabBar() -> MainTabBarController
+    func makeNavigationController() -> UINavigationController
+    func makeFirstTabBarViewController() -> FirstTabBarViewController
+    func makeSecondTabBarViewController() -> SecondTabBarViewController
+    func makeThirdTabBarViewController() -> ThirdTabBarViewController
+    func makeHabitsViewController() -> HabitsViewController
 }

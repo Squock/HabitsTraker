@@ -8,7 +8,12 @@
 import UIKit
 
 final class MainTabBarController: UITabBarController {
+    var interactor: MainTabBarInteractorProtocol?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        tabBar.backgroundColor = .white
     }
 }
+
+extension MainTabBarController: MainTabBarControllerProtocol {}

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Swinject
+
+final class UIAssembly: Assembly {
+    func assemble(container: Container) {}
+}

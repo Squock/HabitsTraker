@@ -6,13 +6,20 @@
 //
 
 import Foundation
+import UIKit
 
 final class ThirdTabBarCoordinator: Coordinator {
     private let sceneFactory: SceneFactoryProtocol
+    private let navigationController: UINavigationController
 
-    init(sceneFactory: SceneFactoryProtocol) {
+    init(sceneFactory: SceneFactoryProtocol,
+         navigationController: UINavigationController) {
         self.sceneFactory = sceneFactory
+        self.navigationController = navigationController
     }
 
-    func start() {}
+    func start() {
+        let viewController = sceneFactory.makeThirdTabBarViewController()
+        navigationController.viewControllers = [viewController]
+    }
 }

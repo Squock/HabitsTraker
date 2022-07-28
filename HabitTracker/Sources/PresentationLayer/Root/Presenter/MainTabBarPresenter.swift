@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+final class MainTabBarPresenter: MainTabBarPresenterProtocol {
+    private let viewController: MainTabBarControllerProtocol
+
+    init(viewController: MainTabBarControllerProtocol) {
+        self.viewController = viewController
+    }
+}

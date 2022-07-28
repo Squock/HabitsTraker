@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+final class SecondTabBarInteractor {
+    private let presenter: SecondTabBarPresenterProtocol
+
+    init(presenter: SecondTabBarPresenterProtocol) {
+        self.presenter = presenter
+    }
+}
+
+extension SecondTabBarInteractor: SecondTabBarInteractorProtocol {}
